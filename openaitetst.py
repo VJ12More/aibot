@@ -3,8 +3,10 @@ import openai
 from config import apikey
 
 from openai import OpenAI
-oaikey="sk-proj-PbDCMhmogn0tqh2HkaqfT3BlbkFJCCVzfD9TjMmbVLdZfam0"
-client = OpenAI(api_key="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")
+oaikey="Your_key"
+client = OpenAI(api_key="Your_key")
+# sk-proj-PbDCMhmogn0tqh2HkaqfT3BlbkFJCCVzfD9TjMmbVLdZfam0
+# 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
 
 response = client.chat.completions.create(
   model="gpt-3.5-turbo-16k",
